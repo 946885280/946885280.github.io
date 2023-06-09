@@ -1,0 +1,41 @@
+.section {
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+  .section h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .section p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .section .text-center {
+    text-align: center;
+  }
+
+  .section img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .section a {
+    color: black; /* 设置超链接文本为黑色 */
+    text-decoration: none; /* 移除默认下划线样式 */
+    transition: color 0.3s; /* 添加颜色过渡效果 */
+  }
+
+  .section a:hover {
+    color: red; /* 鼠标悬停时超链接文本变为红色 */
+    text-decoration: underline; /* 添加下划线效果 */
+  }

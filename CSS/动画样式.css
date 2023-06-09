@@ -1,0 +1,92 @@
+ /* 淡入淡出效果 */
+ .fade-in {
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
+  .fade-out {
+    opacity: 1;
+    animation: fadeOut 1s forwards;
+  }
+
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+
+    to {
+      opacity: 0;
+    }
+  }
+
+  /* 平移效果 */
+  .slide-in {
+    transform: translateX(-100%);
+    animation: slideIn 1s forwards;
+  }
+
+  @keyframes slideIn {
+    from {
+      transform: translateX(-100%);
+    }
+
+    to {
+      transform: translateX(0);
+    }
+  }
+
+  .slide-out {
+    transform: translateX(0);
+    animation: slideOut 1s forwards;
+  }
+
+  @keyframes slideOut {
+    from {
+      transform: translateX(0);
+    }
+
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+  /* 缩放效果 */
+  .scale-in {
+    transform: scale(0);
+    animation: scaleIn 1s forwards;
+  }
+
+  @keyframes scaleIn {
+    from {
+      transform: scale(0);
+    }
+
+    to {
+      transform: scale(1);
+    }
+  }
+
+  .scale-out {
+    transform: scale(1);
+    animation: scaleOut 1s forwards;
+  }
+
+  @keyframes scaleOut {
+    from {
+      transform: scale(1);
+    }
+
+    to {
+      transform: scale(0);
+    }
+  }

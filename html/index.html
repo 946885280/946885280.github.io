@@ -1,190 +1,186 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <title>龙川县乡村振兴之路</title>
-  <!-- 引用样式表 -->
-  <style type="text/css">
-/* 主页样式表.css */
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <meta charset="UTF-8">
+    <title>龙川县乡村振兴之路</title>
+    <!-- 引用样式表 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../CSS/框架样式.css"
+  </head>
 
-/* 2 */
-.STYLE1 {
-  font-size: 34px;
-}
+  <body>
 
-.STYLE2 {
-  color: #FF0000;
-}
+    <header>
+      <h1 align="center" class="large important">龙川县乡村振兴之路</h1>
+      <!--导航栏-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">首页</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="lcintroduce.html">龙川县介绍</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="scenery.html">风景观光</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  产业发展
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                  <li><a class="dropdown-item" href="agriculture.html#一产有底气">一产有底气</a></li>
+                  <li><a class="dropdown-item" href="agriculture.html#二产有动力">二产有动力</a></li>
+                  <li><a class="dropdown-item" href="agriculture.html#三产有活力">三产有活力</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  文化传承
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                  <li><a class="dropdown-item" href="culture.html#古村落">古村落</a></li>
+                  <li><a class="dropdown-item" href="culture.html#美丽乡村">美丽乡村</a></li>
+                  <li><a class="dropdown-item" href="culture.html#非物质文化遗产">非物质文化遗产</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#教育发展">教育发展</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#社区合作">社区合作</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-#Layer3 {
-  position: absolute;
-  width: 400px;
-  height: 400px;
-  z-index: 2;
-  left: 980px;
-  top: 210px;
-}
-
-#Layer4 {
-  position: absolute;
-  width: 400px;
-  height: 400px;
-  z-index: 3;
-  left: 179px;
-  top: 410px;
-}
-
-#Layer5 {
-  position: absolute;
-  width: 200px;
-  height: 115px;
-  z-index: 3;
-  left: -191px;
-  top: 210px;
-}
-
-#Layer6 {
-  position: absolute;
-  width: 200px;
-  height: 115px;
-  z-index: 3;
-  left: -191px;
-  top: 210px;
-}
-
-#Layer7 {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  z-index: 3;
-}
-
-.STYLE10 {
-  color: #666666;
-}
-
-/* 新增样式 */
-header {
-  text-align: center;
-  background-color: #f2f2f2;
-  padding: 20px;
-}
-
-nav.navbar {
-  background-color: #333;
-  color: #fff;
-}
-
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-nav ul li {
-  display: inline-block;
-  position: relative;
-}
-
-nav ul li a {
-  display: block;
-  padding: 10px 20px;
-  color: #fff;
-  text-decoration: none;
-}
-
-nav ul li:hover > a {
-  background-color: #555;
-}
-
-nav ul li:hover a:hover {
-  background-color: #777;
-}
-
-nav ul li .dropdown {
-  display: none;
-  position: absolute;
-  background-color: #333;
-  width: 200px;
-}
-
-nav ul li:hover .dropdown {
-  display: block;
-}
-
-nav ul li .dropdown li {
-  display: block;
-}
-  </style>
-  <link href="../CSS/主页样式表.css" rel="stylesheet" type="text/css">
-</head>
-<body>
-  <header>
-    <h1 align="center" class="STYLE3 STYLE9">龙川县乡村振兴之路</h1>
-  </header>
-  
-  <nav class="navbar">
-    <ul>
-      <li><a href="index.html">首页</a>
-        <ul class="dropdown">
-          <li><a href="lcintroduce.html">龙川县介绍</a></li>
-        </ul>
-      </li>
-      <li>
-        <a href="scenery.html">风景观光</a>
-      </li>
-      <li>
-        <a href="agriculture.html">产业发展</a>
-        <ul class="dropdown">
-          <li><a href="agriculture.html#一产有底气">一产有底气</a></li>
-          <li><a href="agriculture.html#二产有动力">二产有动力</a></li>
-          <li><a href="agriculture.html#三产有活力">三产有活力</a></li>
-        </ul>
-      </li>
-      <li>
-        <a href="culture.html">文化传承</a>
-        <ul class="dropdown">
-          <li><a href="culture.html#古村落">古村落</a></li>
-          <li><a href="culture.html#美丽乡村">美丽乡村</a></li>
-          <li><a href="culture.html#非物质文化遗产">非物质文化遗产</a></li>
-        </ul>
-      </li>
-      <li><a href="#教育发展">教育发展</a></li>
-      <li><a href="#社区合作">社区合作</a></li>
-    </ul>
-  </nav>
-  
-  <main>
-    <h1 align="left">&nbsp;</h1>
-    <p align="left">&nbsp;</p>
-    <p align="left">&nbsp;</p>
-    <p align="left">&nbsp;</p>
-    <p align="left">&nbsp;</p>
-    <p align="left">&nbsp;</p>
-    <p align="left">&nbsp;</p>
-    <p align="left">&nbsp;</p>
+ 
+    <main>
+      <div class="container">
+        <div id="news" class="section mt-5">
+          <h1 class="text-center">要闻</h1>
+          <div class="row">
+            <div class="col-lg-6">
+              <h1>
+                <a href="https://www.thepaper.cn/newsDetail_forward_23348982" target="_blank"
+                  class="text-decoration-none">县长朱以威到北部组团调研实施“百县千镇万村高质量发展工程”、发展壮大村集体经济及防汛备汛工作</a>
+              </h1>
+            </div>
+            <div class="col-lg-6">
+              <h1>
+                <a href="https://www.sohu.com/a/681023155_121123851" target="_blank"
+                  class="text-decoration-none">龙川拟征收老隆镇约2.5公顷土地（内附补偿安置方案和红线图）</a>
+              </h1>
+            </div>
+          </div>
     
-    <div id="Layer3">
-      <img src="../image/龙川地图.png" width="400" height="400" alt="龙川地图">
-    </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <h1>
+                <a href="https://mp.weixin.qq.com/s/dbSydKXjbO0z5LQUGVzpzw" target="_blank"
+                  class="text-decoration-none">学习借鉴先进经验，加快推动高质量发展！龙川县委书记刘力率队到寻乌县考察交流学习</a>
+              </h1>
+            </div>
+            <div class="col-lg-6">
+              <h1>
+                <a href="https://mp.weixin.qq.com/s/Wsghj18G8VAjaa9cQqMIUA" target="_blank"
+                  class="text-decoration-none">“园”来这么美！城市公园建设彰显龙川魅力~</a>
+              </h1>
+            </div>
+          </div>
+        </div>
     
-    <div id="Layer5">
-      <h2 class="STYLE8">龙川县地理位置</h2>
-      <p>&nbsp;</p>
-      <p class="STYLE10">龙川县位于广东省东北部，地处粤赣两省交界地带，全县总面积3043.4平方公里，下辖13个乡镇，辖区总人口47万人。</p>
-      <p>&nbsp;</p>
-    </div>
+        <div id="education" class="section mt-5">
+          <h1 class="text-center">教育发展</h1>
+          <p>龙川县：全国义务教育发展基本均衡县、广东省教育强县......</p>
+          <h2 class="text-center">
+            <a href="https://gdxk.southcn.com/hy/lcxk/xwbd/content/post_624456.html" target="_blank"
+              class="text-decoration-none">有一种骄傲叫龙川教育！中央和省级主流媒体聚焦龙川教育...</a>
+          </h2>
+        </div>
     
-    <div id="Layer6">
-      <h2 class="STYLE8">乡村风景</h2>
-      <p>&nbsp;</p>
-      <p class="STYLE10">龙川县拥有得天独厚的自然资源，风景秀丽，物产丰富，是旅游度假的理想之地。</p>
-      <p>&nbsp;</p>
-    </div>
-  </main>
-  
-  <footer>
-    <p>版权所有 &copy; 2023 龙川县乡村振兴办公室</p>
-  </footer>
-</body>
-</html>
+        <div id="community" class="section mt-5">
+          <h1 class="text-center">社区合作</h1>
+          <h1>
+            <a href="http://smzt.gd.gov.cn/gkmlpt/content/4/4151/post_4151587.html#1753" target="_blank"
+              class="text-decoration-none">【全国优秀城乡社区工作者】李巧：河源市龙川县老隆镇水上新村社区</a>
+          </h1>
+        </div>
+    
+        <div id="scenery" class="section mt-5">
+          <h1 class="text-center">风景观光</h1>
+          <div class="text-center section1">
+            <p>龙川县有着优美的自然风景，值得游客们前来观光。</p>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="text-center">
+                <img src="../image/优美风光/嶅山溪古.jpg" width="500" height="300">
+                <p>嶅山溪谷</p>
+              </div>
+              <div class="text-center">
+                <img src="../image/佗城镇/考棚.jpg" width="500" height="300">
+                <p>佗城考棚</p>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="text-center">
+                <img src="../image/优美风光/五色茶岭.jpg" width="500" height="300">
+                <p>五色茶岭</p>
+              </div>
+              <div class="text-center">
+                <img src="../image/优美风光/鹿湖.png" width="500" height="300">
+                <p>鹿湖</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <div id="agriculture" class="section">
+          <h1 class="text-center">产业发展</h1>
+          <p>龙川县致力于推动产业升级，推动制造业转型升级，扩大第三产业发展，以实现乡村振兴。</p>
+          <div class="text-center">
+            <img src="../image/产业发展/龙川县转移工业园.jpg" width="500" height="300">
+            <p>工业园</p>
+          </div>
+          <div class="text-center">
+            <img src="../image/产业发展/菜篮子基地.jpg" width="500" height="300">
+            <p>菜篮子基地</p>
+          </div>
+        </div>
+    
+        <div id="culture" class="section">
+          <h1 class="text-center">文化传承</h1>
+          <p>龙川县骄傲地传承着丰富多彩的文化遗产，让我们一起探索这段历史吧！</p>
+          <p>杂技、木偶戏、楚剧等传统艺术形式都在龙川县有着深厚的底蕴。</p>
+          <div class="text-center">
+            <img src="../image/文化传承/龙川杂技.jpg" width="500" height="300">
+            <p>龙川杂技</p>
+          </div>
+          <div class="text-center">
+            <img src="../image/文化传承/楚剧.jpg" width="500" height="300">
+            <p>楚剧</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    
+
+
+      <footer>
+        <p>友情链接:<a href="https://baidu.com">百度</a>，<a href="http://www.longchuan.gov.cn/">龙川县人民政府</a></p>
+        <p>Copyright 2022-2023 by 电商222黄志豪 ©
+        </p>
+      </footer>
+      </body>
+      </html>
+        
