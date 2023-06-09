@@ -1,11 +1,11 @@
-  /* 导航栏样式 */
+/* 导航栏样式 */
 .navbar ul {
   background-color: #333;
   list-style: none;
- display: flex;
+  display: flex;
   margin: 0;
   padding: 0;
-justify-content: center;
+  justify-content: center;
 }
 
 .navbar ul li {
@@ -16,13 +16,14 @@ justify-content: center;
 .navbar ul li a {
   display: block;
   padding: 10px 20px;
-              text-align: center;
+  text-align: center;
   text-decoration: none;
-	color: white;
+  color: white;
 }
+
 /* 下拉菜单样式 */
 .navbar ul li:hover > a {
-            background-color: #111;
+  background-color: #111;
 }
 
 .navbar .dropdown {
@@ -54,211 +55,123 @@ justify-content: center;
   background-color: #ddd;
 }
 
-
-        /* 横向板块样式 
-        .section {
-            margin: 20px;
-            background-color: #f2f2f2;
-            padding: 20px;
-            border-radius: 5px;
-        }
-        
-        h1 {
-            font-size: 24px;
-            color: #333;
-        }
-        
-        p {
-            font-size: 16px;
-            color: #555;
-            line-height: 1.6;
-        }
-		*/
-		
-    /* 整体布局样式 */
-    .container {
-      display: flex;
-    }
-#跳转至龙川县介绍 hr {
-	color: #000000;
-	background-color: #000000;
+/* 整体布局样式 */
+.container {
+  display: flex;
 }
 
-  
-    .section {
-      margin-bottom: 20px;
-      background-color: #f2f2f2;
-      padding: 20px;
-      border-radius: 5px;
-    }
-  
-    /* 标题样式 */
-    .section h1 {
-      font-size: 24px;
-      color: #333;
-      margin-bottom: 10px;
-    }
-  
-    /* 段落样式 */
-    .section p {
-      font-size: 16px;
-      color: #555;
-      line-height: 1.6;
-      margin-bottom: 10px;
-    }
+.section {
+  margin-bottom: 20px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+}
 
-    #Layer1 {
-	position:absolute;
-	width:532px;
-	height:300px;
-	z-index:1;
-	left: 597px;
-	top: 124px;
+/* 标题样式 */
+.section h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
 }
-    .section11 {margin: 20px;
-            background-color: #f2f2f2;
-            padding: 20px;
-            border-radius: 5px;
+
+/* 段落样式 */
+.section p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 10px;
 }
-    .section111 {margin: 20px;
-            background-color: #f2f2f2;
-            padding: 20px;
-            border-radius: 5px;
-}
-    #Layer2 {
-	position:absolute;
-	width:993px;
-	height:315px;
-	z-index:1;
-	left: 51px;
-	top: 157px;
-}
-    .section112 {margin: 20px;
-            background-color: #f2f2f2;
-            padding: 20px;
-            border-radius: 5px;
-}
-    .container .row .col-md-6 d-flex align-items-start div {
-	text-align: justify;
-	vertical-align: text-top;
-}
+
 /*页脚样式*/
-    footer {
-      background-color: #333;
-      color: #fff;
-      padding: 10px;
-      text-align: center;
-    }
-    #Layer3 {
-	position:absolute;
-	width:581px;
-	height:305px;
-	z-index:1;
-	left: 20px;
-	top: 150px;
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
 }
-    #Layer4 {
-	position:absolute;
-	width:636px;
-	height:301px;
-	z-index:2;
-	left: 680px;
-	top: 126px;
+
+/* 跳转至龙川县介绍样式 */
+#跳转至龙川县介绍 hr {
+  color: #000000;
+  background-color: #000000;
 }
-.正文跳转 {
-	font-family: "宋体";
-	font-size: 30px;
-	font-style: normal;
-	line-height: normal;
-	font-weight: bold;
-	color: #FF0000;
-	text-align: justify;
-}
-    .STYLE3 {font-size: 36px}
-.STYLE5 {font-size: 18}
-    .STYLE6 {font-size: 18px; }
-    #Layer5 {
-	position:absolute;
-	width:200px;
-	height:115px;
-	z-index:3;
-}
-    
-/*跳转至龙川县介绍样式*/
+
 #跳转至龙川县介绍 #跳转文本 a:link {
-	font-family: "宋体";
-	color: #FF0000;
-	text-decoration: none;
+  font-family: "宋体";
+  color: #FF0000;
+  text-decoration: none;
 }
+
 #跳转至龙川县介绍 #跳转文本 a:hover {
-	font-family: "宋体";
-	font-weight: bold;
-	color: #FF0000;
-	text-decoration: underline;
+  font-family: "宋体";
+  font-weight: bold;
+  color: #FF0000;
+  text-decoration: underline;
 }
+
 #跳转至龙川县介绍 #跳转文本 a:visited {
-	font-family: "宋体";
-	color: #990000;
+  font-family: "宋体";
+  color: #990000;
 }
+
 #跳转至龙川县介绍 #跳转文本 a:active {
-	font-family: "宋体";
-	color: #0000FF;
-	text-decoration: underline blink;
+  font-family: "宋体";
+  color: #0000FF;
+  text-decoration: underline blink;
 }
-/*主页正文小标题样式*/
+
+/* 主页正文小标题样式 */
 .主页正文标题 {
-	font-family: "宋体";
-	font-size: 24px;
-	color: #000000;
-	text-align: left;
-	font-weight: bold;
-}
-.主页正文标题 h1 a:link {
-	font-family: "宋体";
-	color: #000000;
-	text-decoration: none;
-}
-.主页正文标题 h1 a:hover {
-	color: #FF0000;
-	text-decoration: underline blink;
+  font-family: "宋体";
+  font-size: 24px;
+  color: #000000;
+  text-align: left;
+  font-weight: bold;
 }
 
-.主页正文标题 h1 a:active {
-	color: #FF0000;
-	text-decoration: underline;
-}
-.主页正文标题 h1 a:visited {
-	color: #666666;
-	text-decoration: none;
+.主页正文标题 h1 a:link,
+#news .主页正文标题 h1 a:link {
+  font-family: "宋体";
+  color: #000000;
+  text-decoration: none;
 }
 
-.主页正文标题 h1 a:link {
-	font-family: "宋体";
-	color: #000000;
-	text-decoration: none;
-}
-/*要闻样式*/
+.主页正文标题 h1 a:hover,
 #news .主页正文标题 h1 a:hover {
-	color: #FF0000;
-	text-decoration: underline blink;
+  color: #FF0000;
+  text-decoration: underline blink;
+}
+
+.主页正文标题 h1 a:active,
+#news .主页正文标题 h1 a:active {
+  color: #FF0000;
+  text-decoration: underline;
+}
+
+.主页正文标题 h1 a:visited,
+#news .主页正文标题 h1 a:visited {
+  color: #666666;
+  text-decoration: none;
+}
+
+/* 要闻样式 */
+#news .主页正文标题 h1 a:hover {
+  color: #FF0000;
+  text-decoration: underline blink;
 }
 
 #news .主页正文标题 h1 a:active {
-	color: #FF0000;
-	text-decoration: underline;
+  color: #FF0000;
+  text-decoration: underline;
 }
+
 #news .主页正文标题 h1 a:visited {
-	color: #666666;
-	text-decoration: none;
+  color: #666666;
+  text-decoration: none;
 }
+
 #senery p {
-	text-align: center;
-	vertical-align: super;
-	white-space: pre;
-}
-#Layer3 img {
-	z-index: -1;
-}
-#Layer4 #activity-name img {
-	z-index: -1;
+  text-align: center;
+  vertical-align: super;
+  white-space: pre;
 }
